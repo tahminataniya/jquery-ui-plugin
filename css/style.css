@@ -1,0 +1,86 @@
+.container{
+	margin: 0 auto;
+	overflow: hidden;
+}
+.c_h2{
+	text-align: center;
+	background-color:olive;
+    font-size: 40px;
+    padding: 15px 0;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+.a_h2{
+	margin-top: 30px;
+    font-size: 40px;
+    padding: 15px 0;
+    color: #ffffff;
+    text-align: center;
+	background-color:#626262;
+    text-transform: uppercase;
+}
+/*draggable start*/
+#draggable {
+   width: 250px; 
+   height: 150px; 
+   padding: 0.5em;
+   background-color: red; 
+}
+p{
+	color: white;
+	font-size: 20px;
+}
+/*draggable end*/
+/*dropable start*/
+ #dragg {
+  width: 100px; 
+  height: 100px; 
+  padding: 0.5em; 
+  float: left; 
+  margin: 10px 10px 10px 0; 
+  background-color: green;
+}
+  #droppable {
+   width: 150px; 
+   height: 150px; 
+   padding: 0.5em; 
+   float: left; 
+   margin: 10px;
+   background-color: red; 
+}
+/*dropable end*/
+/*sortable start*/
+ #sortable {
+  list-style-type: none; 
+  margin: 0; 
+  padding: 0; 
+  width: 60%; 
+}
+  #sortable li { 
+  	margin: 0 3px 3px 3px; 
+  	padding: 0.4em; 
+  	padding-left: 1.5em; 
+  	font-size: 1.4em; 
+  	height: 18px; 
+  }
+  #sortable li span { 
+  	 position: absolute;
+  	 margin-left: -1.3em; 
+  	}
+/*sortable end*/
+#accordion p{
+     font-size: 20px;
+     color: black;
+}
+/*autocomplete start*/
+/*autocomplete end*/
+/*menu start*/
+ .ui-menu { 
+ 	width: 150px; 
+ }
+ /*tabs start*/
+ .t_p{
+ 	color: black;
+ 	font-size: 20px;
+ }
+ /*tabs end*/
